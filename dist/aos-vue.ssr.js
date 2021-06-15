@@ -106,29 +106,19 @@ styleInject(css_248z);var script = vue.defineComponent({
       required: true
     },
     offset: {
-      type: String,
+      type: Number,
       required: false,
       default: 0
-    },
-    once: {
-      type: Boolean,
-      required: false,
-      default: false
-    },
-    mirror: {
-      type: Boolean,
-      required: false,
-      default: true
-    },
-    easing: {
-      type: String,
-      required: false,
-      default: "ease-in-out"
     },
     duration: {
       type: Number,
       required: false,
       default: 400
+    },
+    easing: {
+      type: String,
+      required: false,
+      default: "ease-in-out"
     },
     delay: {
       type: Number,
@@ -139,19 +129,29 @@ styleInject(css_248z);var script = vue.defineComponent({
       type: String,
       required: false,
       default: null
+    },
+    placement: {
+      type: String,
+      required: false,
+      default: "top-center"
+    },
+    once: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   }
 });function render(_ctx, _cache, $props, $setup, $data, $options) {
   return vue.openBlock(), vue.createBlock("div", {
     "data-aos": _ctx.animation,
     "data-aos-duration": _ctx.duration,
-    "data-aos-easing": _ctx.easeing,
-    "data-aos-mirror": _ctx.mirror,
+    "data-aos-easing": _ctx.easing,
     "data-aos-once": _ctx.once,
     "data-aos-offset": _ctx.offset,
     "data-aos-delay": _ctx.delay,
-    "data-aos-anchor": _ctx.anchor
-  }, [vue.renderSlot(_ctx.$slots, "default")], 8, ["data-aos", "data-aos-duration", "data-aos-easing", "data-aos-mirror", "data-aos-once", "data-aos-offset", "data-aos-delay", "data-aos-anchor"]);
+    "data-aos-anchor": _ctx.anchor,
+    "data-aos-anchor-placement": _ctx.placement
+  }, [vue.renderSlot(_ctx.$slots, "default")], 8, ["data-aos", "data-aos-duration", "data-aos-easing", "data-aos-once", "data-aos-offset", "data-aos-delay", "data-aos-anchor", "data-aos-anchor-placement"]);
 }script.render = render;// Import vue component
 // IIFE injects install function into component, allowing component
 // to be registered via Vue.use() as well as Vue.component(),
