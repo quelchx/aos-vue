@@ -15,29 +15,19 @@ export default defineComponent({
       required: true,
     },
     offset: {
-      type: String,
+      type: Number,
       required: false,
       default: 0,
-    },
-    once: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
-    mirror: {
-      type: Boolean,
-      required: false,
-      default: true,
-    },
-    easing: {
-      type: String,
-      required: false,
-      default: "ease-in-out",
     },
     duration: {
       type: Number,
       required: false,
       default: 400,
+    },
+    easing: {
+      type: String,
+      required: false,
+      default: "ease-in-out",
     },
     delay: {
       type: Number,
@@ -49,6 +39,16 @@ export default defineComponent({
       required: false,
       default: null,
     },
+    placement: {
+      type: String,
+      required: false,
+      default: "top-center",
+    },
+    once: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
   },
 });
 </script>
@@ -57,12 +57,12 @@ export default defineComponent({
   <div
     :data-aos="animation"
     :data-aos-duration="duration"
-    :data-aos-easing="easeing"
-    :data-aos-mirror="mirror"
+    :data-aos-easing="easing"
     :data-aos-once="once"
     :data-aos-offset="offset"
     :data-aos-delay="delay"
     :data-aos-anchor="anchor"
+    :data-aos-anchor-placement="placement"
   >
     <slot />
   </div>
