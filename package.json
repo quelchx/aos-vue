@@ -46,5 +46,23 @@
   },
   "engines": {
     "node": ">=12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quelchx/aos-vue.git"
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "aos",
+    "animate on scroll",
+    "vue 3",
+    "lightweight"
+  ],
+  "author": "Eric Quelch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quelchx/aos-vue/issues"
+  },
+  "homepage": "https://github.com/quelchx/aos-vue#readme"
 }
