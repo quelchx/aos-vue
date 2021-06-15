@@ -1,6 +1,6 @@
 {
   "name": "aos-vue",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vue Animation on Scroll Component",
   "main": "dist/aos-vue.ssr.js",
   "browser": "dist/aos-vue.esm.js",
@@ -54,10 +54,7 @@
   "keywords": [
     "vue",
     "nuxt",
-    "aos",
-    "animate on scroll",
-    "vue 3",
-    "lightweight"
+    "aos"
   ],
   "author": "Eric Quelch",
   "license": "MIT",
