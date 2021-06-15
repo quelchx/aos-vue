@@ -1,6 +1,6 @@
 {
   "name": "aos-vue",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Vue Animation on Scroll Component",
   "main": "dist/aos-vue.ssr.js",
   "browser": "dist/aos-vue.esm.js",

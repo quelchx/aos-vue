@@ -1,4 +1,5 @@
-v0.0.1 -> v0.0.4
+v0.0.1 -> v0.0.5
 - API added + testing phases to ensure component is working for other users. 
 - Package verified working with Vite and Vue CLI Vue 3 starting builds.
 - Have not testing Vue 2 yet. 
+- Published to NPM
