@@ -350,8 +350,8 @@ If your interested in contributing to this package please contact me by email th
 
 ### Issues
 
-If you encounter any issues or have any concerns please refer to https://github.com/quelchx/oas-vue/issues and report a detailed description of what is occuring.
+If you encounter any issues or have any concerns please refer to https://github.com/quelchx/aos-vue/issues and report a detailed description of what is occuring.
 
 Package Repository: https://github.com/quelchx/aos-vue
 
-Author: Eric Quelch Github: https://github.com/quelchx Website: https://quelchlax.tech
+Author: Eric Quelch Github: https://github.com/quelchx Website: https://quelchx.com
