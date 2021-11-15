@@ -2,7 +2,7 @@
 
 Vue 3 lightweight animate on scroll component. Full website example coming soon.
 
-For a quick small demonstation check out https://quelchlax.tech to see this package being used.
+For a quick small demonstation check out https://quelchx.com see this package being used.
 
 ![npm](https://img.shields.io/npm/v/aos-vue?color=purple&style=flat-square)
 [![](https://data.jsdelivr.com/v1/package/npm/aos-vue/badge)](https://www.jsdelivr.com/package/npm/aos-vue)
