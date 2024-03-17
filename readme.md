@@ -1,30 +1,12 @@
 # AOS Vue
 
-## Notice for Community
-
-Dear Esteemed Community Members,
-
-It is with a sense of duty that we communicate the deprecation of AOS Vue after two years of dedicated service. This decision has been made following meticulous consideration, recognizing the commendable role it has played in fulfilling its intended purpose.
-
-Due to increasing commitments, the project's maintenance has become a challenge for me to undertake single-handedly. In light of this, we encourage community members to contribute to the project by forking the repository and implementing changes, improvements, or additional features. I will be actively involved in reviewing and approving such contributions.
-
-Your continued support and collaboration are deeply appreciated as we navigate this transition. We extend our gratitude to all contributors for their valuable input over the years.
-
-Best Regards,
-
-quelchx
-Software Enginner
-ScriptString AI
-
----
-
 Vue 3 lightweight animate on scroll component.
 
 ### Notes:
 
 This package utilizes a library called aos.js, which you can find [here](https://www.npmjs.com/package/aos). The design of This component is to leverage the aos.js library and its features -- but more customized towards the Vue way.
 
-This package was built using [Rollup](https://www.npmjs.com/package/vue-sfc-rollup). Other than using what comes default with this package -- they're no other dependencies this project relies on (other than aos.js).
+This package was built using [Rollup](https://www.npmjs.com/package/vue-sfc-rollup). Other than using what comes default with this package -- they are no other dependencies this project relies on (other than aos.js).
 
 ### Prerequisites
 
